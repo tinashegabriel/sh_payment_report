@@ -1,0 +1,207 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_payment_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-30 05:22+0000\n"
+"PO-Revision-Date: 2020-09-30 05:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_payment_report
+#: model:ir.actions.report,print_report_name:sh_payment_report.sh_payment_report_action
+msgid "'Invoice Payment Report'"
+msgstr "'تقرير دفع الفاتورة'"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "<span>Sale Person :</span>"
+msgstr "<span>مندوب مبيعات :</span>"
+
+#. module: sh_payment_report
+#: model:ir.model.fields.selection,name:sh_payment_report.selection__sh_payment_report_wizard__state__all
+msgid "All"
+msgstr "الكل"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_wizard_form
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.invoice_payment_report_xls_view
+msgid "Close"
+msgstr "قريب"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__company_ids
+msgid "Companies"
+msgstr "الشركات"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__create_uid
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__create_uid
+msgid "Created by"
+msgstr "انشأ من قبل"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__create_date
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__create_date
+msgid "Created on"
+msgstr "تم إنشاؤها على"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__display_name
+#: model:ir.model.fields,field_description:sh_payment_report.field_report_sh_payment_report_sh_payment_report_doc__display_name
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__excel_file
+msgid "Download report Excel"
+msgstr "تحميل تقرير اكسل"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__date_end
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__file_name
+msgid "Excel File"
+msgstr "ملف اكسل"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__id
+#: model:ir.model.fields,field_description:sh_payment_report.field_report_sh_payment_report_sh_payment_report_doc__id
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__id
+msgid "ID"
+msgstr "هوية شخصية"
+
+#. module: sh_payment_report
+#: model:ir.model,name:sh_payment_report.model_invoice_payment_report_xls
+msgid "Invoice Payment Xls Report"
+msgstr "تقرير Xls للدفع Invoice"
+
+#. module: sh_payment_report
+#: model:ir.actions.act_window,name:sh_payment_report.sh_payment_report_wizard_action
+#: model:ir.actions.report,name:sh_payment_report.sh_payment_report_action
+#: model:ir.ui.menu,name:sh_payment_report.sh_payment_report_wizard_menuitem
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.invoice_payment_report_xls_view
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_wizard_form
+msgid "Invoice Payment Report"
+msgstr "تقرير دفع الفاتورة"
+
+#. module: sh_payment_report
+#: model:ir.actions.act_window,name:sh_payment_report.action_invoice_payment_report
+msgid "Invoice Payment Report Excel"
+msgstr "تقرير دفع الفاتورة Excel"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls____last_update
+#: model:ir.model.fields,field_description:sh_payment_report.field_report_sh_payment_report_sh_payment_report_doc____last_update
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard____last_update
+msgid "Last Modified on"
+msgstr "تاريخ آخر تعديل"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__write_uid
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__write_date
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "Name"
+msgstr "اسم"
+
+#. module: sh_payment_report
+#: model:ir.model.fields.selection,name:sh_payment_report.selection__sh_payment_report_wizard__state__open
+msgid "Open"
+msgstr "افتح"
+
+#. module: sh_payment_report
+#: model:ir.model.fields.selection,name:sh_payment_report.selection__sh_payment_report_wizard__state__paid
+msgid "Paid"
+msgstr "دفع"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "Payment Method"
+msgstr "طريقة الدفع او السداد"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_wizard_form
+msgid "Print"
+msgstr "طباعة"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_wizard_form
+msgid "Print In XLS"
+msgstr "طباعة في XLS"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "Refund"
+msgstr "إعادة مال"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__user_ids
+msgid "Salesperson"
+msgstr "مندوب مبيعات"
+
+#. module: sh_payment_report
+#: model:res.groups,name:sh_payment_report.sh_payment_report_group
+msgid "Show Salesperson Field In Invoice Payment Report"
+msgstr "إظهار حقل مندوب المبيعات في تقرير دفع الفاتورة"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__date_start
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__state
+msgid "Status"
+msgstr "الحالة"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "To"
+msgstr "إلى"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "Total"
+msgstr "مجموع"
+
+#. module: sh_payment_report
+#: model:ir.model,name:sh_payment_report.model_report_sh_payment_report_sh_payment_report_doc
+msgid "invoice payment report abstract model"
+msgstr "نموذج تقرير دفع الفاتورة"
+
+#. module: sh_payment_report
+#: model:ir.model,name:sh_payment_report.model_sh_payment_report_wizard
+msgid "invoice payment report wizard Model"
+msgstr "نموذج معالج تقرير دفع الفاتورة"
+
+#. module: sh_payment_report
+#: code:addons/sh_payment_report/wizard/payment_report_wizard.py:0
+#, python-format
+msgid "start date must be less than end date."
+msgstr "يجب أن يكون تاريخ البدء أقل من تاريخ الانتهاء."

@@ -1,0 +1,207 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_payment_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-30 05:22+0000\n"
+"PO-Revision-Date: 2020-09-30 05:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_payment_report
+#: model:ir.actions.report,print_report_name:sh_payment_report.sh_payment_report_action
+msgid "'Invoice Payment Report'"
+msgstr "'发票付款报告'"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "<span>Sale Person :</span>"
+msgstr "<span>销售人员：</span>"
+
+#. module: sh_payment_report
+#: model:ir.model.fields.selection,name:sh_payment_report.selection__sh_payment_report_wizard__state__all
+msgid "All"
+msgstr "全部"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_wizard_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.invoice_payment_report_xls_view
+msgid "Close"
+msgstr "关闭"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__company_ids
+msgid "Companies"
+msgstr "公司介绍"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__create_uid
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__create_uid
+msgid "Created by"
+msgstr "由...制作"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__create_date
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__display_name
+#: model:ir.model.fields,field_description:sh_payment_report.field_report_sh_payment_report_sh_payment_report_doc__display_name
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__excel_file
+msgid "Download report Excel"
+msgstr "下载报表Excel"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__date_end
+msgid "End Date"
+msgstr "结束日期"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__file_name
+msgid "Excel File"
+msgstr "Excel文件"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__id
+#: model:ir.model.fields,field_description:sh_payment_report.field_report_sh_payment_report_sh_payment_report_doc__id
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sh_payment_report
+#: model:ir.model,name:sh_payment_report.model_invoice_payment_report_xls
+msgid "Invoice Payment Xls Report"
+msgstr "发票付款Xls报告"
+
+#. module: sh_payment_report
+#: model:ir.actions.act_window,name:sh_payment_report.sh_payment_report_wizard_action
+#: model:ir.actions.report,name:sh_payment_report.sh_payment_report_action
+#: model:ir.ui.menu,name:sh_payment_report.sh_payment_report_wizard_menuitem
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.invoice_payment_report_xls_view
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_wizard_form
+msgid "Invoice Payment Report"
+msgstr "发票付款报告"
+
+#. module: sh_payment_report
+#: model:ir.actions.act_window,name:sh_payment_report.action_invoice_payment_report
+msgid "Invoice Payment Report Excel"
+msgstr "发票付款报表Excel"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls____last_update
+#: model:ir.model.fields,field_description:sh_payment_report.field_report_sh_payment_report_sh_payment_report_doc____last_update
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__write_uid
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_invoice_payment_report_xls__write_date
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间："
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "Name"
+msgstr "姓名"
+
+#. module: sh_payment_report
+#: model:ir.model.fields.selection,name:sh_payment_report.selection__sh_payment_report_wizard__state__open
+msgid "Open"
+msgstr "打开"
+
+#. module: sh_payment_report
+#: model:ir.model.fields.selection,name:sh_payment_report.selection__sh_payment_report_wizard__state__paid
+msgid "Paid"
+msgstr "有薪酬的"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "Payment Method"
+msgstr "付款方法"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_wizard_form
+msgid "Print"
+msgstr "打印"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_wizard_form
+msgid "Print In XLS"
+msgstr "在XLS中打印"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "Refund"
+msgstr "退款"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__user_ids
+msgid "Salesperson"
+msgstr "营业员"
+
+#. module: sh_payment_report
+#: model:res.groups,name:sh_payment_report.sh_payment_report_group
+msgid "Show Salesperson Field In Invoice Payment Report"
+msgstr "在发票付款报告中显示销售员字段"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__date_start
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: sh_payment_report
+#: model:ir.model.fields,field_description:sh_payment_report.field_sh_payment_report_wizard__state
+msgid "Status"
+msgstr "状态"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "To"
+msgstr "到"
+
+#. module: sh_payment_report
+#: model_terms:ir.ui.view,arch_db:sh_payment_report.sh_payment_report_doc
+msgid "Total"
+msgstr "全部的"
+
+#. module: sh_payment_report
+#: model:ir.model,name:sh_payment_report.model_report_sh_payment_report_sh_payment_report_doc
+msgid "invoice payment report abstract model"
+msgstr "发票付款报告摘要模型"
+
+#. module: sh_payment_report
+#: model:ir.model,name:sh_payment_report.model_sh_payment_report_wizard
+msgid "invoice payment report wizard Model"
+msgstr "发票付款报告向导模型"
+
+#. module: sh_payment_report
+#: code:addons/sh_payment_report/wizard/payment_report_wizard.py:0
+#, python-format
+msgid "start date must be less than end date."
+msgstr "开始日期必须小于结束日期。"

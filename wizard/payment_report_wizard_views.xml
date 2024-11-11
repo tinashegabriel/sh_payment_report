@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_payment_report_wizard_form" model="ir.ui.view">
+        <field name="name">sh.payment.report.wizard.form</field>
+        <field name="model">sh.payment.report.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Invoice Payment Report">
+                <group>
+                    <group>
+                        <field name="date_start" />
+                        <field name="state" />
+                    </group>
+                    <group>
+                        <field name="date_end" />
+                        <field name="company_ids" options="{'no_create': True}"
+                            widget="many2many_tags" groups="base.group_multi_company" />
+                    </group>
+                </group>
+                <group>
+                    <field colspan="2" nolabel="1" name="user_ids"
+                        groups="sh_payment_report.sh_payment_report_group">
+                        <tree>
+                            <field name="name" />
+                        </tree>
+                    </field>
+                </group>
+                <footer>
+                    <button name="display_report" string="View" class="oe_highlight" type="object" />
+                    <button name="print_report" string="Print" class="oe_highlight" type="object" />
+                    <button name="print_xls_report" string="Print In XLS" class="oe_highlight"
+                        type="object" />
+                    <button string="Cancel" class="btn-default" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="sh_payment_report_wizard_action" model="ir.actions.act_window">
+        <field name="name">Invoice
+            Payment Report</field>
+        <field name="res_model">sh.payment.report.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="menu_sale_report"
+        name="Reporting"
+        groups="sales_team.group_sale_manager"
+        sequence="40" />
+
+    <menuitem id="sh_menu_sale_report"
+        name="Sales"
+        parent="sale.menu_sale_report"
+        action="sale.action_order_report_all"
+        groups="sales_team.group_sale_manager"
+        sequence="1" />
+
+    <menuitem id="sh_payment_report_wizard_menuitem" action="sh_payment_report_wizard_action"
+        parent="sale.menu_sale_report" groups="sh_payment_report.sh_payment_report_group_user"
+        sequence="2" />
+</odoo>
